@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block title %}
+    <title>ABOUTUS PAGE</title>
+{% endblock %}
+
+{% block content %}
+<center>
+    <br><br>
+    <img src="{% static 'images/img.jpg.crdownload' %}" alt="pyspider team" width="100" height="100">
+    <link rel="stylesheet" href="{% static  'css/style.css' %}">
+    <h1>NAME : {{name}}</h1>
+    <h2>EMAIL :{{email}}</h2>
+    <h2>PHNO : {{phno}}</h2>
+    <p>PySpiders is a best-in-class learning solutions organization headquartered in India’s IT capital, Bangalore. We offer a wide range of courses in the area of Python development.</p>
+</center>
+{% endblock %}

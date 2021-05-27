@@ -1,0 +1,21 @@
+<!-- NAV BAR -->
+<ul class="nav nav-tabs">
+    <li class="nav-item">
+      {% if request.path == "" %}
+      <a class="nav-link active" aria-current="page" href="{% url 'myapp:index' %}">HOME</a>
+      {% else %}
+      <a class="nav-link eactiv" aria-current="page" href="{% url 'myapp:index' %}">HOME</a>
+      {% endif %}
+      
+      
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="{% url 'myapp:courses' %}">COURSES</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="{% url 'myapp:aboutus' %}">ABOUTUS</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="{% url 'myapp:enquiry' %}">ENQUIRY</a>
+      </li>
+  </ul>

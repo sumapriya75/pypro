@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+{% load static %}
+
+
+{% block title %}
+    <title>COURSES PAGE</title>
+{% endblock %}
+
+{% block content %}
+<center>
+    <br><br>
+    <img src="{% static 'images/IMG2.png' %}" alt="best learning courses" width="75" height="100"><br>
+    <h1>{{name}}</h1><br>
+    <h2>The best selection of python courses</h2><br>
+    Search Courses:<input type="text" name="search courses" placeholder="search courses">
+    <h5>python full stack</h5>
+    <h5>testing</h5>
+    <h5>data science</h5>
+    <h5>apptitude</h5>
+    <h5>c,c++ programming</h5>
+</center>
+{% endblock %}
