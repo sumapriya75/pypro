@@ -12,3 +12,5 @@ def aboutus (request):
     return render(request,"aboutus.html",{"name": name,"email":email,"phno":phno})
 def enquiry (request):
     return render(request,"enquiry.html",{"name": name,"email":email,"phno":phno})
+def batches(request):
+    return render(request,"batches.html",{"name": name,"email":email,"phno":phno})

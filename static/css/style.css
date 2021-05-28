@@ -1,4 +1,14 @@
-p{
+#p{
    text-size-adjust: 20px;
    text-transform: lowercase; 
+}
+#caption{
+    text-align:center;
+    position: relative;
+
+}
+#thead{
+    test-align:center;
+    margin-left: 145px;
+    margin-right: 25px;
 }
